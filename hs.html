@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>HOSPITAL</title>
+
+        
+        <link rel="stylesheet" href="hs.css">
+    </head>
+    <body>
+       <!-- <div class="class"-->
+        <table width="100%">
+        <tr>
+            
+            <td width="25%" align="center" bgcolor="skyblue" class="links"><a href="about.html" onkeypress="about"><h1>ABOUT US</h1></a></td>
+          <!----  <td width="25%" align="center" bgcolor="tomato" class="links"><a href="specialised.html" onkeypress="specialised"><h1>SPECIALISED</h1></a></td>-->
+            <td width="25%" align="center" bgcolor="skyblue" ><div class="dropdown">
+                
+                <button class="dropbtn"><h1>SPECIALISED</h1></button>
+                <div class="dropdown-content">
+                  <a href="#"> Pain management</a>
+                  <a href="#">Pediatrics</a>
+                  <a href="#">Robotics science</a>
+                  <a href="#">Plastic surgery</a>
+                  <a href="#">Liver transplant</a>
+                  <a href="#">Spine surgery</a>
+            
+                </div>
+              </div></td>
+            <td width="25%" align="center" bgcolor="skyblue" class="links"><a href="help.html" onkeypress="help"><h1>HELP</h1></a></td>
+        </tr></table>
+    </br></br>
+        <marquee direction="right" behavior="alternate" style="border: rgb(44, 39, 201) 2px solid;font-size: 20; font-style:oblique;text-decoration-color: brown;"> <h2>HEALTH IS WEALTH</h2></marquee>
+        
+        <table width="150%">
+            <tr>
+                <td ><img class="image" src="https://tse1.mm.bing.net/th?id=OIP.e9gXlg-Bs6k0f5vsnjxI5gHaHa&pid=Api&P=0" height="5%" ><a href="dental.html" onkeypress="dental"><h1>Dental health</h1></a> </td>
+                <td ><img class="image" src="https://tse1.mm.bing.net/th?id=OIP.wbyr5arW9XkMRENILOqn9wHaHQ&pid=Api&P=0" height="5%"  ><a href="cardiac.html"onkeypress="cardiac"><h1>Cardiac health</h1></a></td>
+            </tr> 
+        </table>
+       
+        <table width="150%">   
+            <tr>
+                <td ><img class="images" src="https://tse4.mm.bing.net/th?id=OIP.1llTs4q7gUMBCqsK4eg3XQHaHa&pid=Api&P=0" height="5%" ><a href="mental.html" onkeypress="mental"><h1>Mental health</h1></a></td>
+                <td ><img class="images"src="https://tse4.mm.bing.net/th?id=OIP.Ig2WosZnA78PZpFa5ZBSxAHaHa&pid=Api&P=0" height="5%"  ><a href="diet.html" onkeypress="diet"><h1>Diet care</h1></a></td>
+                <!--<td ><img class="image" src="https://tse2.mm.bing.net/th?id=OIP.ou8Skn14nGfLcZC5857oCQHaGi&pid=Api&P=0" height="5%" ></td>
+                <td ><img class="image" src="https://tse4.mm.bing.net/th?id=OIP.j2d2lBzOM96cSIt3eJ4p0AHaHa&pid=Api&P=0" height="5%" ></td>-->
+            </tr>
+        </table>
+        <table border="2" width="100%" bgcolor="skyblue" height="10%">
+            <tr>
+                <td>Designed by - CSE-2A</td>
+            </tr>
+        </table>
+        <style>
+            body{
+                background-color: #fff;
+                background-image: url("https://tse2.mm.bing.net/th?id=OIP.M5kXJs9Mi-tvhz98jYWjZwHaFj&pid=Api&P=0");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-position: center;
+            }
+            
+            .zoom{
+                transition:transform 0.5s;
+            }
+            .zoom:hover{
+                transform:scale(1.1);
+            }
+			.zoom a{
+				text-decoration:none;
+				
+			}
+			.image{
+				height:280px;
+                border-style:solid;
+                border-width: 5px;
+                border-color: gray;
+                padding:25px 50px;
+                align-items: left;
+                align-content: left;
+			}
+            .links a .image{
+                text-decoration: none;
+                text-align: center;
+                padding-top: 2rem;
+            }
+            tr td a{
+                text-decoration: none;
+            }
+            .images{
+				height:280px;
+                border-style:solid;
+                border-width: 5px;
+                border-color: gray;
+                padding:25px 50px;
+                align-items: right;
+                align-content: right;
+			}
+            .links a .images{
+                text-decoration: none;
+                text-align: center;
+                padding-top: 2rem;
+            }
+            tr td a{
+                text-decoration: none;
+            }
+            .dropbtn {
+  background-color: none;
+  color: rgb(63, 35, 130);
+  border: none;
+  cursor: pointer;
+}
+	.dropdown-content{
+        text-decoration: none;
+        text-align: center;
+        padding-top: 2rem;
+		display: none;
+		position:absolute;
+		background-color:#f9f9f9;
+		min-width:160px;
+		box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+	.dropdown{
+		position:relative;
+		display:inline-block;
+	}
+	.dropdown-content a{
+		color:black;
+		padding:12px 16px;
+		text-decoration:none;
+		display:block;
+    }
+    .h1{
+        background-color: lightgrey;
+		width:300px;
+		border: 10px silver;
+		margin:20px;
+        align-items: center;
+    }
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+        </style>
+</html>
